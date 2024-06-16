@@ -352,67 +352,11 @@ html, body{
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    background-image: url(https://cdn.pixabay.com/photo/2017/06/10/22/58/composing-2391033_1280.jpg);
+    background-image: url(./Images/videodiv.webp);
     background-size: cover;
-    animation: imgchange 30s linear infinite both;
+    border: 2px solid whitesmoke;
 }
 
-@keyframes imgchange {
-    0%{
-        background-image: url(https://cdn.pixabay.com/photo/2017/06/10/22/58/composing-2391033_1280.jpg);
-        background-position: center;
-    }
-    10%{
-        background-image: url(https://cdn.pixabay.com/photo/2017/12/31/17/06/face-3052778_1280.jpg);
-        background-position: center;
-
-    }
-    20%{
-        background-image: url(https://cdn.pixabay.com/photo/2017/04/02/16/58/man-2196323_1280.jpg);
-        background-position: center;
-
-    }
-    30%{
-        background-image: url(https://cdn.pixabay.com/photo/2018/04/13/19/10/fantasy-3317298_1280.jpg);
-        background-position: center;
-
-    }
-    40%{
-        background-image: url(https://cdn.pixabay.com/photo/2018/03/20/19/18/beautiful-3244349_1280.jpg);
-        background-position: center;
-
-    }
-    50%{
-        background-image: url(https://cdn.pixabay.com/photo/2017/10/06/21/57/fantasy-2824768_1280.jpg);
-        background-position: center;
-
-    }
-    60%{
-        background-image: url(https://cdn.pixabay.com/photo/2016/10/13/19/52/woman-1738669_1280.jpg);
-        background-position: center;
-
-    }
-    70%{
-        background-image: url(https://cdn.pixabay.com/photo/2016/07/24/22/25/woman-1539416_1280.jpg);
-        background-position: center;
-        
-    }
-    80%{
-        background-image: url(https://cdn.pixabay.com/photo/2018/03/21/23/45/tiger-3248779_1280.jpg);
-        background-position: center;
-
-    }
-    90%{
-        background-image: url(https://cdn.pixabay.com/photo/2017/06/10/22/45/composing-2391005_1280.jpg);
-        background-position: center;
-
-    }
-    100%{
-        background-image: url(https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947_1280.jpg);
-        background-position: center;
-
-    }
-}
 #videodiv video{
     width: 100%;
     height: 100%;
